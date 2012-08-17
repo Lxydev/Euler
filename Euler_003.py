@@ -5,6 +5,9 @@
 
 import math
 
+from myUtil import isPrime
+
+'''
 def isPrime(a):
     if a==2:
         return True
@@ -19,6 +22,7 @@ def isPrime(a):
             return False
         b-=2
     return True
+'''
 
 num = 600851475143
 max_p_factor = 3
